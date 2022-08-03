@@ -1,6 +1,6 @@
 # AWS serverless typescript demo - Backslash Frontend assigment 
 
-### React app representing the code flow of [ AWS serverless typescrip Demo](https://github.com/aws-samples/serverless-typescript-demo) Api metods.
+### React app representing the code flow of [AWS serverless typescrip Demo](https://github.com/aws-samples/serverless-typescript-demo) Api metods.
 <p>
 Aws demo app consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
 <p/>
@@ -53,14 +53,33 @@ flow 1\n1,2\n2,6\n flow 2
 &nbsp;
 &nbsp;
 
-## Local Installisation :rocket:
+## Local Setup :rocket:
 1. Install [Node.js](https://nodejs.org/en/).  
-2. Navigate to the root /backslash directory and ` run npm install to install `.
-3. Run ` npm start `
+2. Clone the repo from Github.
+  
+```
+git clone https://github.com/mayareu/backslash-home-assigment.git
+```
+  
+3. Navigate to the root directory and install dependencies through npm.
+  
+```
+cd backslash
+npm install
+```
+  
+4. Run ` npm start `
+  
+&nbsp;
+&nbsp;
 
-
-
-
+## Technologies :dna:
+- [React](https://reactjs.org/) v18.0.14 
+- [Typescript](https://www.typescriptlang.org/) v4.7.2 
+- [Nx](https://nx.dev/) v14.4.3
+- [MobX](https://mobx.js.org/README.html) v3.4.0 (mobx-react-lite)
+- [React Flow](https://reactflow.dev/) v10.3.12 
+- [Jest](https://jestjs.io/) v27.5.1
 
 
 
