@@ -1,24 +1,29 @@
 # AWS serverless typescript demo - Backslash Frontend assigment 
 
-### react app representing the code flow of API calls, based on AWS serverless typescrip Demo.
-&nbsp;
-<img width="1726" alt="Screen Shot 2022-08-02 at 11 09 21" src="https://user-images.githubusercontent.com/62664469/182366970-68fad222-0065-4841-9a81-91d6aabf655a.png">
-<hr/>
+### React app representing the code flow of [ AWS serverless typescrip Demo](https://github.com/aws-samples/serverless-typescript-demo) Api metods.
 <p>
 Aws demo app consists of an Amazon API Gateway backed by four AWS Lambda functions and an Amazon DynamoDB table for storage.
 <p/>
+&nbsp;
+<img width="1726" alt="Screen Shot 2022-08-02 at 11 09 21" src="https://user-images.githubusercontent.com/62664469/182366970-68fad222-0065-4841-9a81-91d6aabf655a.png">
 
-<h2> App data </h2>
+&nbsp;
+&nbsp;
+
+<h2> App data :package: </h2>
 <p>
 Manually created csv files, one for nodes and another for the relations between them.
 </p>
-
 <p><pre>
 Reading csv files didn't work due to  `versions` incompatibility.
-&nbsp;
-Instead, defeining const representing the csv string for each file, reading and parsing it instead.
+Instead, defeining const representing the csv string for each file, reading and parsing it.
 </pre>
 </p>
+
+> The data consts are inside the app.consts file
+> 
+&nbsp;
+
 <h3>Node Data</h3>
 <p>
 Rows of data, seperated by '\n'.
@@ -28,7 +33,6 @@ Rows of data, seperated by '\n'.
   - Id : string
   - Label : string
   - Type : 'input' (API node) | 'output' (dynamoDB node) | 'default' (lmbda node)
-  &nbsp;
 
 <h3>Relations</h3>
 <p>
@@ -45,7 +49,20 @@ For example:
 ```
 flow 1\n1,2\n2,6\n flow 2
 ```
-> The data consts are inside the app.consts file
-
- &nbsp;
   
+&nbsp;
+&nbsp;
+
+## Local Installisation :rocket:
+1. Install [Node.js](https://nodejs.org/en/).  
+2. Navigate to the root /backslash directory and ` run npm install to install `.
+3. Run ` npm start `
+
+
+
+
+
+
+
+
+
